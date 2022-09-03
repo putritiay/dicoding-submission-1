@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kitchenette.</title>
+
+    <!-- Icon from Fontawesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- costum style with assets/style.css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="body">
+
+    <!--------- Jumbotron --------->
+    <div class="jumbotron">
+      <div class="banner">
+        <h1><q> Kitchenette is the best place to finding the best recipe </q></h1>
+      </div>
+    </div>
+    <!----x---- Jumbotron ----x---->
+
+    <!--------- Header --------->
+    <header id="header" class="shadow bg-light sticky">
+      <nav class="container navbar">
+
+        <!----- Brand ----->
+        <a href="/index.html" class="nav-brand color-dark px-1">Kitchenette.</a>
+        <!--x-- Brand --x-->
+
+        <!----- Toggle Button ----->
+        <button class="toggle-button">
+          <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <!--x-- Toggle Button --x-->
+
+        <!----- Navigation Bar ----->
+        <div class="navigation">
+          <ul class="navbar-nav">
+            <a href="#" class="link">Home</a>
+            <a href="#gallery" class="link">Gallery</a>
+            <a href="#tips" class="link">Tips</a>
+            <a href="#about" class="link">About</a>
+            <a href="#contact" class="link">Contact</a>
+          </ul>
+        </div>
+        <!--x-- Navigation Bar --x-->
+
+        <!----- Social Media ----->
+        <div class="navigation">
+          <ul class="navbar-nav">
+            <div class="search-box">
+              <a href="" class="link"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <a href="" class="link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="" class="link"><i class="fa-brands fa-twitter"></i></a>
+            <a href="" class="link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="" class="link"><i class="fa-brands fa-linkedin"></i></a>
+          </ul>
+        </div>
+        <!--x-- Social Media --x-->
+
+      </nav>
+    </header>
+    <!----x---- Header ----x---->
+
+    <!--------- Main Section --------->
+    <!-- [ ada Aside di bagian ini ] -->
+    <main id="home">
+
+      <!------- Recipe Section ------->
+      <section id="recipe">
+        <div class="container">
+          <!------- Layout ------->
+          <div class="layout">
+
+            <!------- Content ------->
+            <div class="content">
+              <!------- Menu ------->
+              <div class="flexbox center">
+
+                <!----- Recipe 1 ----->
+                <div class="flex-item">
+                  <div class="picture">
+                    <a href="#">
+                      <img src="/assets/recipe/western-lasagna.jpg" class="img" alt="">
+                    </a>
+                  </div>
+                  <!--------->
+                  <div class="menu font-1 color-dark text-center">
+                    <p class="display-3">
+                      <span><i class="fa-solid fa-clock color-first pr-1"></i>150 menit</span>
+                      <span><i class="fa-solid fa-bowl-rice color-first px-1"></i>2 loyang</span>
+                    </p>
+                    <a href="/resep-1.html">
+                      <h3 class="recipe-link">Classic Lasagna</h3>
+                    </a>
+                  </div>
+                </div>
+                <!--x-- Recipe 1 --x-->
+
+                <!----- Recipe 2 ----->
+                <div class="flex-item">
+                  <div class="picture">
+                    <a href="#">
+                      <img src="/assets/recipe/indonesian-sate.jpg" class="img" alt="">
+                    </a>
+                  </div>
+                  <!-- --- -->
+                  <div class="menu font-1 color-dark text-center">
+                    <p class="display-3">
+                      <span><i class="fa-solid fa-clock color-first pr-1"></i>60 menit</span>
+                      <span><i class="fa-solid fa-bowl-rice color-first px-1"></i>15 tusuk</span>
+                    </p>
+                    <a href="/resep-2.html">
+                      <h3 class="recipe-link">Sate Ayam</h3>
+                    </a>
+                  </div>
+                </div>
+                <!--x-- Recipe 2 --x-->
+
+                <!----- Recipe 3 ----->
+                <div class="flex-item">
+                  <div class="picture">
+                    <a href="#">
+                      <img src="/assets/recipe/indonesian-rendang.jpg" class="img" alt="">
+                    </a>
+                  </div>
+                  <!-- --- -->
+                  <div class="menu font-1 color-dark text-center">
+                    <p class="display-3">
+                      <span><i class="fa-solid fa-clock color-first pr-1"></i>90 menit</span>
+                      <span><i class="fa-solid fa-bowl-rice color-first px-1"></i>12 potong</span>
+                    </p>
+                    <a href="/resep-3.html">
+                      <h3 class="recipe-link">Rendang Daging</h3>
+                    </a>
+                  </div>
+                </div>
+                <!--x-- Recipe 3 --x-->
+
+                <!----- Recipe 4 ----->
+                <div class="flex-item">
+                  <div class="picture">
+                    <a href="#">
+                      <img src="/assets/recipe/western-pizza.jpeg" class="img" alt="">
+                    </a>
+                  </div>
+                  <!-- --- -->
+                  <div class="menu font-1 color-dark text-center">
+                    <p class="display-3">
+                      <span><i class="fa-solid fa-clock color-first pr-1"></i>45 menit</span>
+                      <span><i class="fa-solid fa-bowl-rice color-first px-1"></i>6 porsi</span>
+                    </p>
+                    <a href="/resep-4.html">
+                      <h3 class="recipe-link">Italian Pizza</h3>
+                    </a>
+                  </div>
+                </div>
+                <!--x-- Recipe 4 --x-->
+
+                <!----- Recipe 5 ----->
+                <div class="flex-item">
+                  <div class="picture">
+                    <a href="#">
+                      <img src="/assets/recipe/indian-tikkamasala.jpg" class="img" alt="">
+                    </a>
+                  </div>
+                  <!-- --- -->
+                  <div class="menu font-1 color-dark text-center">
+                    <p class="display-3">
+                      <span><i class="fa-solid fa-clock color-first pr-1"></i>30 menit</span>
+                      <span><i class="fa-solid fa-bowl-rice color-first px-1"></i>5 porsi</span>
+                    </p>
+                    <a href="/resep-5.html">
+                      <h3 class="recipe-link">Tikka Masala</h3>
+                    </a>
+                  </div>
+                </div>
+                <!--x-- Recipe 5 --x-->
+
+                <!----- Recipe 6 ----->
+                <div class="flex-item">
+                  <div class="picture">
+                    <a href="#">
+                      <img src="/assets/recipe/chinese-dumpling.jpeg" class="img" alt="">
+                    </a>
+                  </div>
+                  <!-- --- -->
+                  <div class="menu font-1 color-dark text-center">
+                    <p class="display-3">
+                      <span><i class="fa-solid fa-clock color-first pr-1"></i>60 menit</span>
+                      <span><i class="fa-solid fa-bowl-rice color-first px-1"></i>25 buah</span>
+                    </p>
+                    <a href="/resep-6.html">
+                      <h3 class="recipe-link">Dumpling Udang</h3>
+                    </a>
+                  </div>
+                </div>
+                <!--x-- Recipe 6 --x-->
+
+                <!-- More Article Button -->
+                <div class="flex-around mt-3">
+                  <a href="#" class="btn-primary color-light">More Article..</a>
+                </div>
+                <!-- /More Article Button -->
+
+              </div>   
+              <!---x--- Menu ---x--->
+            </div>
+            <!---x--- Content ---x--->
+
+            <!------- Aside ------->
+            <aside id="owner" class="px-2">
+              <div class="contact">
+                <div class="owner">
+                  <img src="/assets/profile.jpg" class="profile text-center" alt="Putri Trisna Idha Ayuningtias">
+                </div>
+                <div class="biodata">
+                  <h2 class="text-center color-dark font-2">Putri Trisna Idha Ayuningtias</h2>
+                  <p class="text-center color-dark">
+                    This website was created in order to fulfill the Final Project of Module 1 "Belajar Dasar Pemrograman Web" by using the knowledge of HTML5, CSS3, JavaScript ES6 which was learned from Dicoding.com
+                  </p>
+                  <address class="text-center color-dark">
+                    <i class="fa-solid fa-location-dot color-first px-1"></i> Jakarta - Indonesia
+                  </address>
+                  <p class="text-center color-dark">
+                    <i class="fa-solid fa-phone color-first px-1"></i>+62 821 668 1 5151
+                  </p>
+                  <p class="text-center color-dark">
+                    <i class="fa-solid fa-envelope color-first px-1"></i>putritiay@gmail.com
+                  </p>
+                  <p class="text-center color-dark">
+                    <i class="fa-solid fa-school color-first px-1"></i>www.dicoding.com
+                  </p>
+                  <p class="text-center color-dark mt-3">
+                    <strong>Support By</strong>
+                  </p>
+                  <p class="text-center color-dark">
+                    <strong>Program Beasiswa Indosat Ooredoo Hutchison Digital Camp 2022</strong>
+                  </p>                            
+                </div>
+                <div class="logo-support">
+                  <img src="/assets/logo/idcamp.png" class="logo" alt="">
+                  <img src="/assets/logo/indosat-ooredoo-hutchison.png" class="logo ml-2" alt="">
+                  <img src="/assets/logo/dicoding.png" class="logo mt-2" alt="">
+                </div>
+              </div>
+            </aside>
+            <!---x--- Aside ---x--->
+
+          </div>
+          <!---x--- Layout ---x--->
+        </div>
+      </section>
+      <!---x--- Recipe Section ---x--->
+
+      <!------- Gallery Section ------->
+      <section id="gallery">
+        <div class="container">
+          <h1 class="font-2 display-1 color-dark gallery-highlight">Gallery</h1>
+          <div class="gallery">
+
+            <!----- prev [<] ----->
+            <div class="prev-btn" onclick="prev()">
+              <i class="fa-solid fa-circle-chevron-left"></i>
+            </div>
+            <!--x-- prev [<] --x-->
+
+            <!----- Slide Section ----->
+            <div id="slide">
+              <!----- Slide 1 ----->
+              <div class="slide-item">
+                <div class="inner">
+                  <a href="#">
+                    <img src="/assets/galeri/avocado-tacos.jpg" class="img-slide" alt="">
+                  </a>
+                </div>
+              </div>
+              <!--x-- Slide 1 --x-->
+              <!----- Slide 2 ----->
+              <div class="slide-item">
+                <div class="inner">
+                  <a href="#">
+                    <img src="/assets/galeri/donat.jpg" class="img-slide" alt="">
+                  </a>
+                </div>
+              </div>
+              <!--x-- Slide 2 --x-->
+              <!----- Slide 3 ----->
+              <div class="slide-item">
+                <div class="inner">
+                  <a href="#">
+                    <img src="/assets/galeri/curry-noodle.jpg" class="img-slide" alt="">
+                  </a>
+                </div>
+              </div>
+              <!--x-- Slide 3 --x-->
+              <!----- Slide 4 ----->
+              <div class="slide-item">
+                <div class="inner">
+                  <a href="#">
+                    <img src="/assets/galeri/salmon-dimsum.jpg" class="img-slide" alt="">
+                  </a>
+                </div>
+              </div>
+              <!--x-- Slide 4 --x-->
+              <!----- Slide 5 ----->
+              <div class="slide-item">
+                <div class="inner">
+                  <a href="#">
+                    <img src="/assets/galeri/bolognese-pasta.jpg" class="img-slide" alt="">
+                  </a>
+                </div>
+              </div>
+              <!--x-- Slide 5 --x-->
+              <!----- Slide 6 ----->
+              <div class="slide-item">
+                <div class="inner">
+                  <a href="#">
+                    <img src="/assets/galeri/prawn-curry.jpg" class="img-slide" alt="">
+                  </a>
+                </div>
+              </div>
+              <!--x-- Slide 6 --x-->
+              <!----- Slide 7 ----->
+              <div class="slide-item">
+                <div class="inner">
+                  <a href="#">
+                    <img src="/assets/galeri/hakau-udang.jpg" class="img-slide" alt="">
+                  </a>
+                </div>
+              </div>
+              <!--x-- Slide 7 --x-->
+              <!----- Slide 8 ----->
+              <div class="slide-item">
+                <div class="inner">
+                  <a href="#">
+                    <img src="/assets/galeri/creamy-meatball.jpg" class="img-slide" alt="">
+                  </a>
+                </div>
+              </div>
+              <!--x-- Slide 8 --x-->
+              <!----- Slide 9 ----->
+              <div class="slide-item">
+                <div class="inner">
+                  <a href="#">
+                    <img src="/assets/galeri/pastel.jpg" class="img-slide" alt="">
+                  </a>
+                </div>
+              </div>
+              <!--x-- Slide 9 --x-->
+              <!----- Slide 10 ----->
+              <div class="slide-item">
+                <div class="inner">
+                  <a href="#">
+                    <img src="/assets/galeri/ayam-asam-manis.jpg" class="img-slide" alt="">
+                  </a>
+                </div>
+              </div>
+              <!--x-- Slide 10 --x-->
+              <!----- Slide 11 ----->
+              <div class="slide-item">
+                <div class="inner">
+                  <a href="#">
+                    <img src="/assets/galeri/apple-pie.jpg" class="img-slide" alt="">
+                  </a>
+                </div>
+              </div>
+              <!--x-- Slide 11 --x-->
+              <!----- Slide 12 ----->
+              <div class="slide-item">
+                <div class="inner">
+                  <a href="#">
+                    <img src="/assets/galeri/beef-steak.jpg" class="img-slide" alt="">
+                  </a>
+                </div>
+              </div>
+              <!--x-- Slide 12 --x-->
+              <!----- Slide 13 ----->
+              <div class="slide-item">
+                <div class="inner">
+                  <a href="#">
+                    <img src="/assets/galeri/sate-padang.jpg" class="img-slide" alt="">
+                  </a>
+                </div>
+              </div>
+              <!--x-- Slide 13 --x-->
+              <!----- Slide 14 ----->
+              <div class="slide-item">
+                <div class="inner">
+                  <a href="#">
+                    <img src="/assets/galeri/beef-samosa.jpg" class="img-slide" alt="">
+                  </a>
+                </div>
+              </div>
+              <!--x-- Slide 14 --x-->
+              <!----- Slide 15 ----->
+              <div class="slide-item">
+                <div class="inner">
+                  <a href="#">
+                    <img src="/assets/galeri/sate-lilit.jpg" class="img-slide" alt="">
+                  </a>
+                </div>
+              </div>
+              <!--x-- Slide 15 --x-->
+            </div>
+            <!--x-- Slide Section --x-->
+
+            <!----- [>] next ----->
+            <div class="next-btn" onclick="next()">
+              <i class="fa-solid fa-circle-chevron-right"></i>
+            </div>
+            <!--x-- [>] next --x-->
+
+          </div>
+        </div>
+      </section>
+      <!---x--- Gallery Section ---x--->
+
+    </main>
+    <!-----x--- Main Section ---x----->
+
+    <!--------- Footer --------->
+    <footer id="footer">
+
+      <!----- Footer Content ----->
+      <div class="container">
+
+        <!----- Contact ----->
+        <div id="contact" class="flexbox flex-around mb-3">
+          <div class="contact-us mb-3 mt-3">
+            <h3 class="text-center color-dark display-1 font-2 mb-3">
+              Contact
+            </h3>
+            <div class="flexbox space-between">
+              <input type="text" class="form" placeholder="Nama">
+              <input type="email" class="form" placeholder="Email">
+              <input type="text" class="form" placeholder="Instagram">
+            </div>
+            <textarea class="form mt-3" placeholder="Pesan Anda" rows="10"></textarea>
+            <div class="flex-around mt-3 mb-3">
+              <a href="#" class="btn-secondary color-light">
+                Kirim!
+              </a>
+            </div>
+          </div>
+
+        </div>
+        <!--x-- Contact --x-->
+
+        <div class="flexbox flex-1 space-between">
+
+          <!----- About ----->
+          <div class="flex-footer color-dark">
+            <div id="about">
+              <h2 class="display-1 font-2">About Us</h2>
+            </div>
+            <div class="font-2">
+              <p>
+                Setiap makanan memiliki ciri khas dan cita rasa yang unik. Tak harus berkeliling dunia untuk mencicipi kuliner khas-nya, kita bisa mencobanya sendiri di rumah.
+              </p>
+              <p>
+                "Kitchenette." hadir dengan konsep konten kuliner khas, dimana terdapat berbagai macam resep masakan yang populer di seluruh dunia.
+              </p>
+              <p>Let's cook !</p>
+              <address><i class="fa-solid fa-location-dot color-first"></i> Jakarta - Indonesia</address>
+              <div class="phone"><i class="fa-solid fa-phone color-first"></i> +62 21 555 6 789</div>
+              <div class="email"><i class="fa-solid fa-envelope color-first"></i> support@kitchenette.com</div>
+            </div>
+          </div>
+          <!--x-- About --x-->
+
+          <!----- Tips ----->
+          <div class="flex-footer">
+            <div id="tips">
+              <h2 class="display-1 font-2 color-dark">Tips & Tricks</h2>
+            </div>
+            <div class="flex-column">
+
+              <!-- tips1 -->
+              <div class="flex-row mb-2">
+                <div class="flex-1">
+                  <div class="img-tips">
+                    <a href="#">
+                      <img src=assets/tips/fresh-meat.jpg alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="flex-2">
+                  <a href="#" class="font-1 display-2 color-dark"> 5 Cara Daging Lebih Cepat Empuk, Pakai Bahan Alami</a>
+                  <p class="font-2 color-disabled display-3">
+                    <span><i class="fa-solid fa-clock color-first"></i> 12:05 WIB | Mon 02, 2022</span>
+                  </p>
+                </div>
+              </div>
+              <!--x-- tips1 --x-->
+
+              <!-- tips2 -->
+              <div class="flex-row mb-2">
+                <div class="flex-1">
+                  <div class="img-tips">
+                    <a href="#">
+                      <img src="/assets/tips/kacang-hijau.jpeg" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="flex-2">
+                  <a href="#" class="font-1 display-2 color-dark"> Bubur Kacang Hijau Metode 5.30.7, Hemat dan Cepat!</a>
+                  <p class="font-2 color-disabled display-3">
+                    <span><i class="fa-solid fa-clock color-first"></i> 12:05 WIB | Mon 02, 2022</span>
+                  </p>
+                </div>
+              </div>
+              <!--x-- tips2 --x-->
+
+              <!-- tips3 -->
+              <div class="flex-row mb-2">
+                <div class="flex-1">
+                  <div class="img-tips">
+                    <a href="#">
+                      <img src="/assets/tips/kambing-kurban.jpg" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="flex-2">
+                  <a href="#" class="font-1 display-2 color-dark"> Rahasia Olah Kambing Kurban Agar Tidak Bau Prengus</a>
+                  <p class="font-2 color-disabled display-3">
+                    <span><i class="fa-solid fa-clock color-first"></i> 12:05 WIB | Mon 02, 2022</span>
+                  </p>
+                </div>
+              </div>
+              <!--x-- tips3 --x-->
+
+              <!----- moretips ----->
+              <div class="text-center">
+                <button class="btn-square color-dark display-2 mt-1"><strong><em>More Tips..</em></strong></button>
+              </div>
+              <!--x-- moretips --x-->
+
+            </div>
+          </div>
+          <!--x-- Tips --x-->
+
+          <!----- Tags & Social ----->
+          <div class="flex-footer color-dark">
+            <div class="flex-column">
+
+              <!----- Tags ----->
+              <h2 class="display-1 font-2">Tags</h2>
+              <div class="flex-row flex-wrap">
+                <a href="#" class="link btn bg-light">Appetizer</a>
+                <a href="#" class="link btn bg-light">Main Course</a>
+                <a href="#" class="link btn bg-light">Dessert</a>
+                <a href="#" class="link btn bg-light">Manner</a>
+                <a href="#" class="link btn bg-light">Food Photography</a>
+              </div>
+              <!--x-- Tags --x-->
+
+              <!----- Social Media ----->
+              <h2 class="display-1 font-2">Social Media</h2>
+              <div class="flex-row space-between">
+                <a href="#" class="link btn bg-light"><i class="fab fa-facebook-f text-center"></i></a>
+                <a href="#" class="link btn bg-light"><i class="fab fa-twitter text-center"></i></a>
+                <a href="#" class="link btn bg-light"><i class="fab fa-instagram text-center"></i></a>
+                <a href="#" class="link btn bg-light"><i class="fab fa-youtube text-center"></i></a>
+              </div>
+              <!--x-- Social Media --x-->
+
+            </div>
+          </div>
+          <!--x-- Tags & Social --x-->
+
+        </div>
+      </div>
+      <!--x-- Footer Content --x-->
+
+      <!----- Copyright ----->
+      <div class="copyright color-disabled">
+        <p>
+          &#169 2022 by <a href="#header" class="color-first font-1 display-1"> Kitchenette. </a> 
+          <span> Proudly created with HTML CSS JavaScript</span>
+        </p>
+      </div>
+      <!--x-- Copyright --x-->
+
+    </footer>
+    <!------x--- Footer ---x------>
+
+    <!-- Costum Javascript by script.js -->
+    <script src="script.js"></script>
+  </body>
+</html>
